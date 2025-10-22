@@ -52,7 +52,7 @@ def sidebar_info():
 sidebar_info()
 
 # Título y descripción
-st.title("♻️EcoVision V3.0👁️")
+st.title("♻️EcoVision V3.0👁️ TXWAp8*/wa:0;uCSae*W;;}H}@nBhQ")
 st.markdown(
     """
 Bienvenido a **EcoVision 3.0**: Detección de contaminantes (latas y botellas) mediante PyTorch YOLOv8.
