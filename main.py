@@ -1,6 +1,6 @@
 # main_ecovision.py
 '''
-# Aplicación Streamlit para EcoVision V 3.0- Detección de latas y botellas con YOLOv8
+# Aplicación Streamlit para EcoVision - Detección de latas y botellas con YOLOv8
 # Autores: Jose Luis Martinez Diaz, Juan David Arroyave Ramirez, Neiberth Aponte Aristizabal, Stevens Ricardo Bohorquez Ruiz
 # Fecha: 2025-10
 # Licencia: Apache 2.0
@@ -20,7 +20,7 @@ from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
 import av
 
 # Configuración de la página
-st.set_page_config(page_title="♻️👁️EcoVision V3.0", layout="wide", page_icon="♻️")
+st.set_page_config(page_title="♻️👁️EcoVision", layout="wide", page_icon="♻️")
 
 # Cargar y mostrar logo
 def show_logo():
@@ -42,20 +42,20 @@ def sidebar_info():
         st.markdown("Neiberth Aponte Aristizabal")
         st.caption("Repositorio ECOVISION")
         st.markdown('https://github.com/davidarroyave/ecovision', unsafe_allow_html=True)
-        st.caption("EcoVision ♻️👁️ V 3.0")
+        st.caption("EcoVision ♻️👁️")
         st.markdown("---")
         st.info("Sistema de IA en PyTorch para detección de contaminantes ambientales como latas y botellas.")
         st.markdown("---")
         year = datetime.datetime.now().year
-        st.markdown(f"©{year} Equipo EcoVision 3.0. Licencia Apache 2.0")
+        st.markdown(f"©{year} Equipo EcoVision. Licencia Apache 2.0")
 
 sidebar_info()
 
 # Título y descripción
-st.title("♻️EcoVision V3.0👁️ TXWAp8*/wa:0;uCSae*W;;}H}@nBhQ")
+st.title("♻️EcoVision👁️")
 st.markdown(
     """
-Bienvenido a **EcoVision 3.0**: Detección de contaminantes (latas y botellas) mediante PyTorch YOLOv8.
+Bienvenido a **EcoVision**: Detección de contaminantes (latas y botellas) mediante PyTorch YOLOv8.
 
 - **Cámara**: Detección en tiempo real
 - **Métricas**: Precisión, recall, mAP
