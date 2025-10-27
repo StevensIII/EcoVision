@@ -16,9 +16,11 @@
 !src/models/
 !src/models/**
 # Mantener la carpeta con métricas (sin pesos)
-!runs/EcoVision/
-!runs/EcoVision/**
-runs/EcoVision/weights/
+!runs/EcoVision3/
+!runs/EcoVision3/**
+runs/EcoVision3/weights/
+runs/EcoVision/
+runs/EcoVision2/
 # Evitar que suba archivos grandes o innecesarios
 # Modelos YOLO locales que no deben ir en la imagen
 yolo11n.pt

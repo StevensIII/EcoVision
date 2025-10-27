@@ -13,6 +13,15 @@ datasets/
 outputs/
 #runs/
 
+# Ignorar todas las carpetas de resultados
+runs/EcoVision/
+runs/EcoVision2/
+runs/EcoVision3/weights/
+
+# Pero incluir el contenido de EcoVision3 excepto weights
+!runs/EcoVision3/
+!runs/EcoVision3/**
+
 # DVC (solo archivos locales o de caché)
 .dvc/config.local
 .dvc/tmp/

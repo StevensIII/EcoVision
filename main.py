@@ -142,8 +142,8 @@ with tab_camera:
 with tab_metrics:
     st.subheader("Métricas del modelo entrenado: LatVision")
 
-    results_path = "runs/EcoVision/results.csv"
-    args_path = "runs/EcoVision/args.yaml"
+    results_path = "runs/EcoVision3/results.csv"
+    args_path = "runs/EcoVision3/args.yaml"
 
     if os.path.exists(results_path):
         df = pd.read_csv(results_path)
@@ -157,7 +157,7 @@ with tab_metrics:
     # Mostrar imágenes de YOLO
     st.markdown("### Resultados visuales del entrenamiento")
     for img in ["results.png", "confusion_matrix.png", "BoxPR_curve.png", "MaskPR_curve.png", "BoxF1_curve.png", "BoxP_curve.png", "BoxR_curve.png", "labels.jpg", "MaskP_curve.png", "MaskR_curve.png", "train_batch0.jpg", "train_batch1.jpg", "train_batch2.jpg", "val_batch0_labels.jpg", "val_batch0_pred.jpg"]:
-        path = os.path.join("runs/EcoVision", img)
+        path = os.path.join("runs/EcoVision3", img)
         if os.path.exists(path):
             st.image(path, caption=img, use_container_width=True)
 

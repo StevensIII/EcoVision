@@ -5,8 +5,8 @@
 
 MODELO = models/yolov8s-seg.pt
 MODEL = src/data/models/
-DATA = datasets/20251007v1/data.yaml
-EPOCHS = 100
+DATA = datasets/20251026v1/data.yaml
+EPOCHS = 120
 IMGSZ = 640
 RUN_NAME = EcoVision
 APP    = main.py
